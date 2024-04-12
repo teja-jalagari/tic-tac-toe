@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+}
+
+.reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add cool background color to the Tic-Tac-Toe game */
+
+body {
+  background-color: #f2f2f2; /* fallback color */
+  background-image: linear-gradient(to bottom right, #4facfe, #00f2fe);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Make the background cover the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center; /* Align the content in the center */
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  font-size: 24px;
+  padding: 20px;
+  margin: 1px;
+  width: 90px;
+  height: 90px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.reset {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #172984;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: #188d94;
+}
+
+
+/* Center the Tic Tac Toe title */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px; /* Add some space between the title and the game board */
+}
+
